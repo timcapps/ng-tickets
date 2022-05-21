@@ -1,0 +1,12 @@
+<h2>Tickets:</h2>
+
+<!-- header to go here -->
+
+<ng-template *ngIf="tickets; else emptyState" >
+    <span>test</span>
+</ng-template>
+
+<ng-template #emptyState >
+    <h3>Oh boy! It looks like there're aren't any more tickets to work. Try adding a new one?!</h3>
+</ng-template>
+
